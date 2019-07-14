@@ -1,6 +1,6 @@
 kat=0
-while(1):
-	print("Şu an" ,kat ,". kattasınız.")
+print("Şu an zemin kattasınız.")
+while(1):	
 	istek=input("Aşağı mı ineceksiniz, yukarı mı çıkacaksınız A/Y:")
 	if istek=='A' or istek=='a' :
 		if kat==0 :
