@@ -1,0 +1,27 @@
+x, y, z, n=input("Bir zaman giriniz (Saat AM/PM):").split()
+int_x=int(x)
+int_y=int(y)
+int_z=int(z)
+
+if n=='AM':
+    if int_x==12:
+        int_x='00'
+        print("Saat:",int_x,y,z)
+    elif int_x>12:
+        print("Bozuk girdiniz.")
+    elif int_y>60:
+        print("Bozuk girdiniz.")
+    elif int_z>60:
+        print("Bozuk girdiniz.")
+    else:
+        print("Saat:" ,x,y,z)
+elif n=='PM':
+    int_x=(int_x+12)
+    if int_x>24:
+        print("Bozuk girdiniz.")
+    elif int_y>60:
+        print("Bozuk girdiniz.")
+    elif int_z>60:
+        print("Bozuk girdiniz.")
+    else:
+        print("Saat:" ,int_x,y,z)
