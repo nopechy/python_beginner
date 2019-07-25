@@ -1,4 +1,4 @@
-x, y, z, n=input("Bir zaman giriniz (Saat, dakika, saniye ve AM/PM arasında : kullanınız.):").split(':')
+x, y, z, n=input("Bir zaman giriniz (Örnek: 5:32:15:PM):").split(':')
 int_x=int(x)
 int_y=int(y)
 int_z=int(z)
