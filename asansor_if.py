@@ -22,6 +22,6 @@ elif istek2=='Y' or 'y' :
 		print(istek3, "kat yukarı çıktınız." ,istek+istek3, ". kattasınız.")
 
 else :
-	print("Kodumun malı git merdiveni kullan.")
+	print(">:C")
 
 
