@@ -10,16 +10,15 @@ while a==1:
     int_x1=int_x1+int_v1
     int_x2=int_x2+int_v2
     if int_x1==int_x2:
-        print("Aynı noktaya geldiler.")
-        break
-    elif int_x2==int_x2:
-        print("Aynı noktaya geldiler.")
+        print("Aynı noktaya geldiler")
         break
     elif int_x1>=(500) or int_x2>=(500):
         print("Gelmediler.")
         break
 -------------------------------------------------
 if int_x1 != int_x2 and v1 == v2:
+    print("Gelmezler")
+elif (int_x1 < int_x2 and v1<v2) or (int_x2 < int_x1 and v2<v1):
     print("Gelmezler")
 else:
     print("Geldi")
